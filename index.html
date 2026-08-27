@@ -14,6 +14,22 @@
   </header>
 
   <main>
+    <section id="demonstracao">
+  <h2>Veja nossa impressora 3D em ação</h2>
+
+  <!--
+    preload="metadata": escolhido porque o vídeo fica no meio da página
+    (não é o primeiro conteúdo visível) e não queremos gastar dados do
+    usuário baixando o vídeo inteiro antes de ele decidir assistir.
+    Carregamos apenas duração/dimensões para já exibir o player corretamente.
+  -->
+  <video controls width="640" poster="assets/media/poster-impressao.jpg" preload="metadata">
+    <source src="assets/media/demonstracao-impressao.webm" type="video/webm">
+    <source src="assets/media/demonstracao-impressao.mp4" type="video/mp4">
+    <track src="assets/media/legendas-pt.vtt" kind="captions" srclang="pt" label="Português" default>
+    Seu navegador não suporta a reprodução deste vídeo.
+  </video>
+</section>
 
     <section id="categorias">
       <h2>Categorias de produtos</h2>

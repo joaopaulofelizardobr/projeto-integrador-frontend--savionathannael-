@@ -7,7 +7,7 @@ oferecendo uma experiência de compra mais imersiva do que fotos estáticas.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Avaliador: João Paulo Felizardo da Silva
+Avaliador: João Paulo Felizardo da Silva  27/08
 
 1. **Bom uso do HTML Semântico:**
    O código está bem organizado e utiliza corretamente tags como `<header>`, `<main>`, `<section>` e `<footer>`. Isso ajuda a deixar o código mais fácil de entender e também melhora a acessibilidade da página.

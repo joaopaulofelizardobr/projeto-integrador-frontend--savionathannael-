@@ -8,46 +8,62 @@
 </head>
 <body>
 
-  <h1>Loja 3D Print</h1>
-  <p>Nosso objetivo é oferecer impressões 3D personalizadas de alta qualidade para clientes de todo o Brasil.</p>
+  <header>
+    <h1>Loja 3D Print</h1>
+    <p>Nosso objetivo é oferecer impressões 3D personalizadas de alta qualidade para clientes de todo o Brasil.</p>
+  </header>
 
-  <h2>Categorias de produtos</h2>
-  <ul>
-    <li>Miniaturas e action figures</li>
-    <li>Peças decorativas para casa</li>
-    <li>Suportes e organizadores personalizados</li>
-  </ul>
+  <main>
 
-  <h2>Produtos em destaque</h2>
-  <table border="1">
-    <thead>
-      <tr>
-        <th>Produto</th>
-        <th>Preço</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Miniatura de dragão (10cm)</td>
-        <td>R$ 49,90</td>
-      </tr>
-      <tr>
-        <td>Suporte de celular articulado</td>
-        <td>R$ 29,90</td>
-      </tr>
-    </tbody>
-  </table>
+    <section id="categorias">
+      <h2>Categorias de produtos</h2>
+      <ul>
+        <li>Miniaturas e action figures</li>
+        <li>Peças decorativas para casa</li>
+        <li>Suportes e organizadores personalizados</li>
+      </ul>
+    </section>
 
-  <h2>Saiba mais sobre impressão 3D</h2>
-  <p>
-    <a href="https://www.3dnatives.com/en/what-is-3d-printing/" target="_blank" rel="noopener noreferrer">
-      O que é impressão 3D?
-    </a>
-  </p>
+    <section id="produtos">
+      <h2>Produtos em destaque</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Miniatura de dragão (10cm)</td>
+            <td>R$ 49,90</td>
+          </tr>
+          <tr>
+            <td>Suporte de celular articulado</td>
+            <td>R$ 29,90</td>
+          </tr>
+        </tbody>
+      </table>
 
-  <h2>Exemplo de produto</h2>
-  <img src="assets/images/miniatura-dragao.jpg" alt="Miniatura 3D de um dragão vermelho pousado sobre uma base de pedra">
+      <img src="assets/images/miniatura-dragao.jpg" alt="Miniatura 3D de um dragão vermelho pousado sobre uma base de pedra">
+    </section>
 
-  <script src="js/main.js"></script>
-</body>
-</html>
+    <section id="orcamento">
+      <h2>Solicite um orçamento</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Dados do cliente</legend>
+
+          <div>
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+
+          <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div>
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" pattern="[0-9]{10,11}" placeholder="Somente números, ex:
